@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-fluid {
+    padding: 0 5px;
+}
+
+.bg-grey {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.c-grey {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*  */
+.cutline {
+    width: 100%;
+    height: 1px;
+}
+
+
+/*  */
+main {
+    max-width: 1024px;
+}
+
+
+/*  */
+header {
+
+    margin: 0 !important;
+
+}
+
+header h1 {
+    text-align: start;
+    margin: 0;
+}
+
+
+/*  */
+#content {
+    margin: 5px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding: 0 5px;
+    margin-top: 10px;
+}
+
+.state-card {
+    border: 10px solid rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+}
+
+.state-card:hover {
+    background-color: rgba(100, 100, 100, 0.1);
+    border-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.state-card p {
+    margin: 0;
+}
+
+
+/*  */
+.filter p {
+    width: 25%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter li {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 5px;
+    margin-left: 0;
+}
+
+.filter li:hover,
+.filter p:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}

@@ -1,0 +1,2 @@
+let federalStates;
+let filterLetters = [];
